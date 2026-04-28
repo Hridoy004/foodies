@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- meta tags for SEO -->
+    <meta name="title" content="Shahjahan Hridoy - Web Developer" />
+    <meta
+      name="description"
+      content="I’m a Computer Science student focused on web development, actively building projects and preparing for tech interviews. I’m aiming for international opportunities while improving my communication skills. Overall, I’m goal-driven, disciplined, and continuously working to grow both technically and personally."
+    />
+    <meta
+      name="keywords"
+      content="full stack web developer, web developer, hridoy"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="2 days" />
+    <meta name="author" content="Shahjahan Hridoy" />
+
+    <!-- title -->
+    <title>Foodies</title>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Red+Rose:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="hero-section">
+      <header>
+        <nav class="navbar" id="navbar" aria-label="Main navigation">
+          <div class="navbar-inner">
+            <a href="/" class="logo">Foodies</a>
+
+            <ul class="nav-list" id="navList">
+              <li class="active">
+                <a href="#home">Home</a>
+                <span class="nav-dot"></span>
+              </li>
+              <li>
+                <a href="#about">About Us</a> <span class="nav-dot"></span>
+              </li>
+              <li>
+                <a href="#service">Service Us</a>
+                <span class="nav-dot"></span>
+              </li>
+              <li>
+                <a href="#company">Our Company</a>
+                <span class="nav-dot"></span>
+              </li>
+              <li><a href="#pages">Pages</a> <span class="nav-dot"></span></li>
+            </ul>
+
+            <button class="hamburger" id="hamburger">
+              <img src="./image/open-menu.png" alt="Open menu" />
+            </button>
+          </div>
+        </nav>
+
+        <!-- mobile drawer -->
+        <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#service">Service Us</a></li>
+            <li><a href="#company">Our Company</a></li>
+            <li><a href="#pages">Pages</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Hero section -->
+      <div id="home" class="hero">
+        <div class="hero-inner">
+          <div class="hero-text">
+            <div class="hero-container">
+              <h1 class="hero-title">We're Serious<br />For Food.</h1>
+              <p class="hero-subtitle">
+                We strive to provide a space where guests can connect with
+                themselves and explore their full potential, offering a safe
+                place.
+              </p>
+              <button class="btn">
+                Get Started
+                <img src="./image/btn-icon.png" alt="Icon" />
+              </button>
+            </div>
+
+            <div class="brands">
+              <div class="brands-inner">
+                <div class="brand-logo">
+                  <img src="./image/brand-logo-1.png" alt="Band Logo" />
+                </div>
+                <div class="brand-logo">
+                  <img src="./image/brand-logo-2.png" alt="Band Logo" />
+                </div>
+                <div class="brand-logo">
+                  <img src="./image/brand-logo-3.png" alt="Band Logo" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image-wrap">
+            <img
+              class="hero-photo"
+              src="./image/place-your-image.png"
+              alt="Chef preparing fresh vegetables"
+              loading="lazy"
+            />
+
+            <!-- polka dots -->
+            <div class="polka-dots" aria-hidden="true"></div>
+
+            <!-- badge: rating -->
+            <div class="badge badge-rating" aria-label="5.0 star rating">
+              <span>5.0 Ratings</span>
+              <span class="stars" aria-hidden="true">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+            </div>
+
+            <!-- badge: quality -->
+            <div class="badge badge-quality">
+              <div class="avatar" aria-hidden="true">
+                <img
+                  src="./image/good-quality-image.png"
+                  alt="Quality product"
+                />
+              </div>
+              <span>Good Quality Product</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="features" aria-label="Key features">
+      <div class="features-inner">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <img src="./image/shopping-icon.png" alt="Shipping" />
+          </div>
+          <div>
+            <h4>Free Shipping</h4>
+            <p>Orders over $140</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <img src="./image/payment-icon.png" alt="Payment" />
+          </div>
+          <div>
+            <h4>Quick Payment</h4>
+            <p>100% secure payment</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <img src="./image/promo-icon.png" alt="Promo" />
+          </div>
+          <div>
+            <h4>Special Promo</h4>
+            <p>Get special promo</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <img src="./image/support-icon.png" alt="Support" />
+          </div>
+          <div>
+            <h4>24/7 Support</h4>
+            <p>Ready support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="benefit-section">
+      <div class="benefit-left">
+        <div class="benefit-img">
+          <img src="./image/benefit-img.png" alt="Benefit" />
+        </div>
+      </div>
+
+      <div class="benefit-right">
+        <p class="benefit-subtitle">Our Benefit</p>
+        <h1 class="benefit-title">
+          The More Healthy<br />
+          Food The Better
+        </h1>
+
+        <ul class="benefit-lists">
+          <li>
+            <i class="fa-solid fa-check benefit-icon"></i>
+            <p class="benefit-pera">Be Alive With Veggie Food.</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-check benefit-icon"></i>
+            <p class="benefit-pera">It's The Place To Be.</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-check benefit-icon"></i>
+            <p class="benefit-pera">Nonstop Veggie Food</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-check benefit-icon"></i>
+            <p class="benefit-pera">The Best Silk Dish In Town</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-check benefit-icon"></i>
+            <p class="benefit-pera">Truffles, Egg & Pumpkin Spice</p>
+          </li>
+        </ul>
+
+        <!-- polka dots -->
+        <div class="polka-dots" aria-hidden="true"></div>
+      </div>
+    </div>
+  </body>
+</html>
