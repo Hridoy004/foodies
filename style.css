@@ -200,7 +200,8 @@ img {
 }
 
 .hero-container {
-  margin: 0 auto !important;
+  position: absolute;
+  top: 187px;
 }
 
 .hero-title {
@@ -339,7 +340,7 @@ img {
 }
 
 .brands {
-  margin-top: 230px;
+  margin-top: 560px;
   background: var(--white);
 }
 .brands-inner {
@@ -442,14 +443,17 @@ feature-icon {
 }
 
 .benefit-title {
+  position: absolute;
   font-size: 60px;
   font-weight: 500;
   color: var(--text);
   margin-top: 20px;
+  z-index: 10000;
+  opacity: 1;
 }
 
 .benefit-lists {
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 .benefit-lists li {
@@ -468,6 +472,110 @@ feature-icon {
   font-size: 1rem;
   font-weight: 400;
   color: var(--text);
+}
+
+.polka-dots-benefit {
+  position: absolute;
+  top: 123px;
+  left: -48px;
+  width: 130px;
+  height: 130px;
+  transform: rotate(0deg);
+
+  background-image: radial-gradient(
+    circle,
+    var(--green-bg) 2.3px,
+    transparent 1.8px
+  );
+  background-size: 13px 13px;
+  pointer-events: none;
+  width: calc(13 * 13px);
+  height: calc(13 * 13px);
+}
+
+.star-section {
+  width: 100%;
+  max-width: 1177px;
+  padding: 3.5rem var(--section-px) 0;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  margin-top: 34px !important;
+}
+
+.star-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+.number {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--green);
+  margin-bottom: 10px;
+}
+
+.pera {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.star-img img {
+  position: absolute;
+  width: 100%;
+  max-width: 445px;
+  height: 513px;
+  top: 0;
+  right: 0 !important;
+}
+
+.foods-section {
+  position: relative;
+  width: 100%;
+  max-width: 1177px;
+  padding: 3.5rem var(--section-px) 0;
+  margin: 0 auto;
+  margin-top: 34px !important;
+}
+
+.food-item {
+  padding-top: 70px !important;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.food-img {
+  width: 292.5px;
+  height: 292.5px;
+}
+
+.foods-subtitle,
+.foods-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.food-card {
+  padding: 20px;
+}
+
+.food-title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+.food-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text);
+  margin-bottom: 20px;
 }
 
 /* 
